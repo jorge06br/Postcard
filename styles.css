@@ -1,0 +1,61 @@
+body {
+	background: black;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding-left: 5px;
+}
+/** {
+	border: 1px dashed red;
+	min-height: 10px;
+}**/
+
+.postcard-footer {
+	text-align: center;
+}
+.postcard-footer button {
+	color: black;
+	background-color: rgb(201, 196, 196);
+	border: none;
+	border-bottom: 1px black solid;
+	padding: 1px 2px 6px;
+}
+.postcard-footer button:hover {
+	background-color: dimgray;
+}
+.postcard-body {
+	display: flex;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.body-left {
+	width: 50%;
+}
+.body-left p:first-child {
+	/*aplica al primer elemento contenido en la clase en este caso espicificamos el primer parrafo*/
+	margin-top: 0;
+}
+.body-right {
+	width: 50%;
+	color: gray;
+}
+input {
+	border: none;
+	border-bottom: 1px gray solid;
+}
+
+.postcard-header {
+	display: flex; /*divide de manera horizontal los elementos*/
+}
+.postcard-header img {
+	/*aplicar cambios solo a la etiqueta que esta dentro de la clase definida*/
+	width: 50px;
+	height: 50px;
+	padding: 10px 10px;
+}
+.postcard-header h1 {
+	margin: 0;
+	width: 100%;
+}
